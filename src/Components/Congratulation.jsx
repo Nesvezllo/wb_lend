@@ -25,6 +25,7 @@ export const Congratulation = () => {
         setCount(prevState => prevState + 0.5)
         setFirstCount(prevState => prevState + 11)
         calculatePercent()
+        window.location.href = "https://api.whatsapp.com/send?text=www.google.com"
     }
 
     useEffect(() => {
@@ -75,7 +76,7 @@ export const Congratulation = () => {
                         <p>2. Нажмите «Продолжить» и получите свой приз.</p>
                     </div>
                     <div className={s.button}>
-                        <a type='button' onClick={() => clickOnButton()} href='https://api.whatsapp.com/send?text=www.google.com'>
+                        <a type='button' onClick={() => clickOnButton()}>
                             <WhatsApp />
                             <p>WhatsApp</p>
                         </a>
