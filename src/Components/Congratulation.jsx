@@ -75,10 +75,10 @@ export const Congratulation = () => {
                         <p>2. Нажмите «Продолжить» и получите свой приз.</p>
                     </div>
                     <div className={s.button}>
-                        <button type='button' onClick={() => clickOnButton()}>
+                        <a type='button' onClick={() => clickOnButton()} href='https://api.whatsapp.com/send?text=www.google.com'>
                             <WhatsApp />
                             <p>WhatsApp</p>
-                        </button>
+                        </a>
                     </div>
                     <div className={s.bar_block}>
                         <p>Делитесь им, пока зелёная полоска не заполнится!</p>
