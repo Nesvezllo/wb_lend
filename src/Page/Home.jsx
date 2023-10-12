@@ -84,7 +84,7 @@ const Home = () => {
             <div className={s.homeWrapper}>
                 <div className={s.additional_info}>
                     <div className={s.left_block}>
-                        <p>🎉Потребительские подарки к 20-летнему юбилею Wildries🎊</p>
+                        <p>🎉Потребительские подарки к 20-летнему юбилею Wildberries🎊</p>
                     </div>
                     <div className={s.date}>
                         <p>{ dateToday } { month }, { year }</p>

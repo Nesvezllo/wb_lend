@@ -43,19 +43,21 @@ export default function GiftBoxAnimation({boxHandleClick, openDialog}) {
   function handleEvent(e) {
     animate()
     boxHandleClick()
-    openDialog()
+    // openDialog()
   }
 
   return (
-      <div className="img-container" onClick={() => handleEvent()}>
-        <button className="box">
-          <img src={box} alt="box" />
-        </button>
-        <img
-          className={`lid ${move} ${rotating} ${rotated}`}
-          src={boxLid}
-          alt="box-lid"
-        />
+      <div>
+          <div className="img-container" onClick={() => handleEvent()}>
+            <button className="box">
+              <img src={box} alt="box" />
+            </button>
+            <img
+              className={`lid ${move} ${rotating} ${rotated}`}
+              src={boxLid}
+              alt="box-lid"
+            />
+        </div>
       </div>
   );
 }

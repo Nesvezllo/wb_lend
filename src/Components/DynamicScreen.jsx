@@ -57,17 +57,18 @@ const DynamicScreen = () => {
         }
     
         function handleClick(e, num, list, setList) {
-            setViewBox(true)
+            // setViewBox(true)
             // prizesRemove(e, num, list, setList)
-            e.target.style.visibility = "hidden"
-            console.log(e); 
+            setTimeout(() => {
+                e.target.parentElement.parentElement.style.visibility = "hidden"
+            }, 1000)
         }
 
 
     return (
         array.length == 4 ?
         <>
-            <BoxPopUp 
+            {/* <BoxPopUp 
                 viewBox={viewBox} 
                 open={open} 
                 setViewBox={() => setViewBox()} 
@@ -76,18 +77,18 @@ const DynamicScreen = () => {
                 number={number}
                 setHiddenPrizes={setHiddenPrizes}
                 hiddenPrizes={hiddenPrizes}
+            /> */}
+            {!hiddenPrizes ? 
+            <Prizes 
+                handleClick={(e, num, list, setList) => handleClick(e, num, list, setList)} 
+                boxHandleClick={() => boxHandleClick()}
+                setHiddenPrizes={setHiddenPrizes}
+                setViewBox={() => setViewBox()}
+                hiddenPrizes={hiddenPrizes}
             />
-            {console.log(hiddenPrizes)}
-            {!hiddenPrizes ? <Prizes handleClick={(e, num, list, setList) => handleClick(e, num, list, setList)}/> : <Congratulation />}
-            {/* {hiddenPrizes && <Congratulation />} */}
-            {/* <div className={s.numBox}>
-                <div className={s.text}>
-                    <p>Попыток</p>
-                </div>
-                <div className={s.num}>
-                    <h1>{number}</h1>
-                </div>
-            </div> */}
+            : 
+                <Congratulation />
+            }
         </>
         :
         <Test 

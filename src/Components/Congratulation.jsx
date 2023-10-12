@@ -76,10 +76,10 @@ export const Congratulation = () => {
                         <p>2. Нажмите «Продолжить» и получите свой приз.</p>
                     </div>
                     <div className={s.button}>
-                        <a type='button' onClick={() => clickOnButton()}>
+                        <button type='button' onClick={() => clickOnButton()}>
                             <WhatsApp />
                             <p>WhatsApp</p>
-                        </a>
+                        </button>
                     </div>
                     <div className={s.bar_block}>
                         <p>Делитесь им, пока зелёная полоска не заполнится!</p>
