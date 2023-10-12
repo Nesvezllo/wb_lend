@@ -1,0 +1,632 @@
+.prizepopup {
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    left: 0px;
+    // backdrop-filter: blur(16px) saturate(180%);
+    // -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    width: 70vw;
+    height: 37vh;
+    padding: 15px 10px;
+    overflow: hidden;
+
+    // &::backdrop {
+    //     width: 100%;
+    //     height: 100vh;
+    //     overflow: hidden;
+    // }
+
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        h1 {
+            
+        }
+
+        img {
+            width: 24px;
+        }
+    }
+
+    .body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        img {
+            width: 70%;
+            margin-top: 13px;
+            border: 0px;
+            border-radius: 10px;
+        }
+    }
+
+    .btnBlock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .button {
+            background: #ff335f;
+            border: 0px;
+            border-radius: 15px;
+            padding: 12px 45px;
+            color: white;
+            font-size: 22px;
+            font-weight: 500;
+            margin-top: 20px;
+        }
+    }
+}
+
+
+
+@media (min-height: 600px) {
+    .prizepopup {
+        height: 50vh;
+        .head {
+
+            h1 {
+                font-size: 35px;    
+            }
+            
+        }
+    }
+}
+
+@media (min-height: 700px) {
+    .prizepopup {
+        height: 40vh;
+        .head {
+            h1 {
+                font-size: 35px;    
+            }
+        }
+    }
+}
+
+
+@media (min-height: 800px) {
+    .prizepopup {
+        height: 35vh;
+        .head {
+            h1 {
+                font-size: 35px;    
+            }
+        }
+
+        .btnBlock {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+    
+            .button {
+                background: #ff335f;
+                border: 0px;
+                border-radius: 15px;
+                padding: 15px 55px;
+                color: white;
+                font-size: 25px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: 319px){
+    .prizepopup {
+        width: 80vw;
+        height: 44vh;   
+    
+        .head {
+            display: flex;
+            align-items: flex-start ;
+            justify-content: center;
+
+            h1 {
+                font-size: 30px;    
+            }
+
+            .imgBlock {
+        
+                img {
+                    width: 20px;
+                    margin-bottom: 25px;
+                    border: 0px;
+                    border-radius: 10px;
+                }
+            }
+            
+        }
+    
+        .body {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+    
+            img {
+                width: 85vw;
+                margin-top: 13px;
+            }
+        }
+
+    }
+}
+
+
+@media (min-width: 320px) and (min-height: 640px){
+    .prizepopup {
+        width: 85vw;
+        height: 40vh;   
+        
+        .head {
+            display: flex;
+            align-items: flex-start ;
+            justify-content: center;
+
+            h1 {
+                font-size: 33px;    
+            }
+
+            .imgBlock {
+        
+                img {
+                    width: 85vw;
+                    margin-bottom: 25px;
+                }
+            }
+            
+        }
+    
+        .btnBlock {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+    
+            .button {
+                background: #ff335f;
+                border: 0px;
+                border-radius: 15px;
+                padding: 12px 45px;
+                color: white;
+                font-size: 25px;
+                margin-top: 20px;
+            }
+        }
+
+    }
+}
+
+
+@media (min-width: 320px) and (min-height: 655px){
+    .prizepopup {
+        width: 85vw;
+        height: 36vh;   
+        
+        .head {
+            display: flex;
+            align-items: flex-start ;
+            justify-content: center;
+
+            h1 {
+                font-size: 33px;    
+            }
+
+            .imgBlock {
+        
+                img {
+                    width: 85vw;
+                    margin-bottom: 25px;
+                }
+            }
+            
+        }
+    
+        .btnBlock {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+    
+            .button {
+                background: #ff335f;
+                border: 0px;
+                border-radius: 15px;
+                padding: 12px 45px;
+                color: white;
+                font-size: 25px;
+
+                margin-top: 20px;
+            }
+        }
+
+    }
+}
+
+
+
+
+@media (min-width: 370px) and (min-height: 800px) {
+    .prizepopup {
+        height: 37vh;
+        .head {
+            h1 {
+                font-size: 37px;    
+            }
+        }
+    }
+}
+
+@media (min-width: 370px) and (min-height: 660px) {
+    .prizepopup {
+        height: 40vh;
+        .head {
+            h1 {
+                font-size: 37px;    
+            }
+        }
+    }
+}   
+
+
+
+@media (min-width: 385px) and (min-height: 660px) {
+    .prizepopup {
+        height: 33vh;
+        .head {
+            h1 {
+                font-size: 37px;    
+            }
+        }
+    }
+}   
+
+
+@media (min-width: 400px) and (min-height: 730px) {
+    .prizepopup {
+        height: 40vh;
+        .head {
+            h1 {
+                font-size: 37px;    
+            }
+        }
+
+
+        .btnBlock {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+    
+            .button {
+                padding: 15px 75px;
+                font-size: 25px;
+                margin-top: 20px;
+            }
+        }
+        
+    }
+}
+
+
+
+
+@media (min-width: 400px) and (min-height: 800px) {
+    .prizepopup {
+        height: 35vh;
+        .head {
+            h1 {
+                font-size: 37px;    
+            }
+        }
+
+
+        .btnBlock {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+    
+            .button {
+                padding: 15px 75px;
+                font-size: 25px;
+                margin-top: 20px;
+            }
+        }
+        
+    }
+}
+
+
+
+
+@media (min-width: 400px) and (min-height: 880px) {
+    .prizepopup {
+        height: 33vh;
+        .head {
+            h1 {
+                font-size: 37px;    
+            }
+        }
+
+
+        .btnBlock {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+    
+            .button {
+                padding: 15px 75px;
+                font-size: 25px;
+                margin-top: 20px;
+            }
+        }
+        
+    }
+}
+
+
+
+@media (min-width: 500px) {
+    .prizepopup {
+        height: 60vh;
+        .head {
+
+            h1 {
+                font-size: 55px;    
+            }
+            
+        }
+
+        .btnBlock {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+    
+            .button {
+                border-radius: 15px;
+                padding: 25px 90px;
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width: 750px) {
+    .prizepopup {
+        height: 55vh;
+        .head {
+
+            h1 {
+                font-size: 60px;    
+            }
+            
+        }
+
+        .btnBlock {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+    
+            .button {
+                border-radius: 25px;
+                padding: 3vh 20vw;
+                font-size: 45px;
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width: 800px) {
+    .prizepopup {
+        height: 51vh;
+        .head {
+
+            h1 {
+                font-size: 60px;    
+            }
+            
+        }
+
+        .btnBlock {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+    
+            .button {
+                border-radius: 30px;
+                padding: 3vh 20vw;
+                font-size: 45px;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 900px) {
+    .prizepopup {
+        height: 49vh;
+        .head {
+
+            h1 {
+                font-size: 70px;    
+            }
+            
+        }
+
+        .btnBlock {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+    
+            .button {
+                border-radius: 30px;
+                padding: 3vh 20vw;
+                font-size: 45px;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .prizepopup {
+        height: 54vh;
+        .head {
+
+            h1 {
+                font-size: 80px;    
+            }
+            
+        }
+
+            .body {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+
+                img {
+                    width: 70%;
+                    margin-top: 13px;
+                }
+            }
+
+
+        .btnBlock {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+    
+            .button {
+                border-radius: 30px;
+                padding: 3vh 20vw;
+                font-size: 45px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1100px) {
+    .prizepopup {
+        width: 68vw;
+        height: 73vh;
+        .head {
+
+            h1 {
+                font-size: 85px;    
+            }
+            
+        }
+
+
+        .body {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+
+            img {
+                width: 60%;
+                margin-top: 13px;
+            }
+        }
+
+        .btnBlock {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 3.5vh;
+    
+    
+            .button {
+                border-radius: 30px;
+                padding: 3vh 13vw;
+                font-size: 45px;
+            }
+        }
+}
+}
+
+
+@media (min-width: 1400px) {
+        .prizepopup {
+            width: 68vw;
+            height: 80vh;
+            .head {
+    
+                h1 {
+                    font-size: 85px;    
+                }
+                
+            }
+
+
+            .body {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+
+                img {
+                    width: 60%;
+                    margin-top: 13px;
+                }
+            }
+    
+            .btnBlock {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 3.5vh;
+        
+        
+                .button {
+                    border-radius: 30px;
+                    padding: 3vh 13vw;
+                    font-size: 45px;
+                }
+            }
+    }
+}
+
+
+
+@media (min-height: 550px) and (min-width: 320px) and (max-height: 600px){
+    .prizepopup {
+        height: 48vh;
+        .head {
+
+            h1 {
+                font-size: 32px;    
+            }
+            
+        }
+    }
+}
+

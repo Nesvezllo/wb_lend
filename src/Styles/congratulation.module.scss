@@ -1,0 +1,132 @@
+.congratulation {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .title {
+
+        h1 {
+            font-size: 25px;
+            color: rgb(220, 0, 0);
+        }
+    }
+
+    .img {
+        margin-top: 10px;
+        img {
+            width: 60%;
+        }
+    }
+
+    .text {
+        margin-top: 20px;
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .atl_block {
+        width: 90%;
+        height: 200px;
+        padding: 10px 15px;
+        margin-top: 10px;
+        border: 0px;
+        border-radius: 10px;
+        background-color: #eeeff4;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        p {
+            width: 300px;
+            font-size: 20px;
+        }
+    }
+
+    .bottomBlock {
+        width: 90%;
+        height: 300px;
+        padding: 5px 15px;
+        margin-top: 10px;
+        border: 0px;
+        border-radius: 10px;
+        background-color: #eeeff4;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+
+        .butt {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }        
+
+        .desc {
+            text-align: left;
+    
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .button {
+            button {
+                background-color: #128c7f;
+                padding: 5px 45px 5px 45px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 0px;
+                border-radius: 6px;
+
+                p {
+                    font-size: 15px;
+                    color: white;
+                }
+            }
+        }
+        
+        .bar_block {
+            p {
+                font-size: 13px;
+                font-weight: 300;
+                color: rgb(173, 173, 173);
+            }
+
+            .bar {
+                // height: 20px;
+                margin-top: 10px;
+                
+                .insideBar {
+                    // height: 20px;
+                    background-color: white;
+                    border: 0px;
+                    border-radius: 10px;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    
+                    p {
+                        position: absolute;
+                        left: 45%;
+                        color: #eeeff4;
+                    }
+                }
+            }
+        }
+        .bottomButton {
+            
+            button {
+                background-color: #691181;
+                padding: 10px 30px;
+                color: white;
+                border: 0px;
+                border-radius: 7px;
+                font-size: 17px;
+            }
+        }
+    }
+
+}

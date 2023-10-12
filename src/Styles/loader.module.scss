@@ -1,0 +1,32 @@
+.checking {
+    text-align: center;
+  
+    .loader {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .textWrapper {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 13px;
+      font-weight: bold;
+      margin-left: 20px;
+      margin-top: 20px;
+  
+      .text {
+        margin-top: 5px;
+        transition: all .3s ease-in-out;
+        opacity: 1;
+      }
+  
+      .hiddenText {
+        opacity: 0;
+        transition: all .3s ease-in-out;
+      }
+    }
+  }

@@ -1,0 +1,89 @@
+.commentsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+    
+    .cmnts_topBlock {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #eeeff4;
+        width: 95%;
+        padding: 10px;
+        font-size: 14px;
+
+        .cmnts_tb_leftSide {
+            p {
+                color: #3f467d;
+            }
+        }
+
+        .cmnts_tb_rightSide {
+            p {
+                color: #a0a1a6;
+            }
+        }
+    }
+
+    .cmnts_main {
+        margin-top: 20px;
+        .comment {
+            display: flex;
+            align-items: flex-start;
+            padding-top: 5px;
+            padding-bottom: 13px;
+            border-bottom: 1px solid rgb(235, 235, 235);
+            .cmnt_img {
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+
+            .cmnt_main {
+                font-size: 13px;
+                margin-left: 12px;
+                h2 {
+                    font-size: 15px;
+                }
+
+                .cmnt_text {
+                    margin-top: 10px;
+                    p {
+
+                    }
+                }
+
+                .cmnt_bottom {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 10px;
+
+                    .cmnt_grade {
+                        width: 27px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .cmnt_dislike {
+                            transform: rotateY(180deg);
+                        }
+                    }
+
+                    img {
+                        width: 12px;
+                        height: 12px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        margin-left: 5px;
+                    }
+                }
+            }
+
+
+        }
+    }
+}

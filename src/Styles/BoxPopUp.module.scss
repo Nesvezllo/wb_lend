@@ -1,0 +1,134 @@
+.boxPopUp {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10;
+    background-color: white;
+    color: white;
+    overflow: hidden;
+
+    .boxPopPupBody {
+        width: 100vw;
+        height: 100vh;
+
+        .boxText {
+            width: 100vw;
+            height: 100vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 17vh;
+                        
+            h2 {
+                color: white;
+            }
+        }
+    }
+}
+
+
+@media(min-height: 700px) {
+    .boxText {
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 17vh;
+                    
+        h2 {
+            color: white;
+            font-size: 25px;
+            margin-top: 5vh;
+        }
+    }
+}
+
+
+@media(min-height: 1000px) {
+    .boxText {
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 17vh;
+                    
+        h2 {
+            color: white;
+            font-size: 45px;
+        }
+    }
+}
+
+
+
+@media(min-width: 1000px) {
+    .boxText {
+        width: 100vw;   
+        height: 100vh;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 17vh;
+                    
+        h2 {
+            color: white;
+            font-size: 40px;
+            margin-top: 10vh;
+        }
+    }
+}
+
+
+@media(min-width: 1400px) {
+    .boxText {
+        width: 100vw;   
+        height: 100vh;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 17vh;
+                    
+        h2 {
+            color: white;
+            font-size: 40px;
+            margin-top: 15vh;
+        }
+    }
+}
+
+@media(min-width: 1600px) {
+    .boxText {
+        width: 100vw;   
+        height: 100vh;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 17vh;
+                    
+        h2 {
+            color: white;
+            font-size: 40px;
+            margin-top: 15vh;
+        }
+    }
+}
